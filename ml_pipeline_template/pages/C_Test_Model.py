@@ -66,6 +66,7 @@ if df is not None:
 
     if (model_select):
         st.write('You selected the model: {}'.format(model_select))
-        st.session_state['deploy_model'] = st.session_state[model_select]
+        if('deploy_model' in st.session_state):
+            st.session_state['deploy_model'] = st.session_state[model_select]
 
     st.write('Continue to Deploy Model')

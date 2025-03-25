@@ -22,7 +22,7 @@ from pandas.api.types import (
 # - Explore NYC Restureants:
 # - Recommendation Analysis: Shoes classification performance on dummy data including precision, recall, TP, TN, FP, and FN
 
-DATASET_FILENAME = 'food_order_updated1.csv'
+DATASET_FILENAME = 'food_order.csv'
 
 df = pd.read_csv(DATASET_FILENAME)
 df = df.dropna()
