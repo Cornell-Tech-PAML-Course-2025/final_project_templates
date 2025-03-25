@@ -11,7 +11,7 @@ The websites sections include
 
 Run the application:
 ```
-streamlit run show_app.py
+streamlit run shoe_app.py
 ```
 
 Happy searching for your foody experience!
